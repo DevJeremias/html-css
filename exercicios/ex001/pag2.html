@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>página 2</title>
+</head>
+<body>
+    <h1>Bem-vindo à minha página 2.</h1>
+    <p>Está é a página 2, para voltar para a página 1 <a href="index.html" rel="prev">Clique Aqui.</a></p>
+    <h2>aqui veremos a responsividade adaptativa trocando entre imagens feitas para tamanhos diferentes de tela</h2>
+    <picture>
+        <source media="(max-width: 550px)" srcset="img/imagem-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="img/imagem-m.png" type="image/png">
+        <img src="img/imagem-g.png" alt="image/png">
+    </picture>
+    <h1>abaixo temos uma implementação de audio aqui no site</h1>
+    <audio controls>
+        <source src="audios/audio01.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Abaixo temos uma implementação de video aqui no site</h1>
+    <video controls poster="img/imagem-p.png">
+        <source src="videos/meu-video.mp4" type="video/mp4">
+        <p>erro ao carregar o video</p>
+    </video>
+
+    <h1>este video abaixo esta indexado do youtube</h1>
+    <iframe width="500" height="350" src="https://www.youtube.com/embed/freIrlMwBks" title="Música Tema Do God Of War 2 PS2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
