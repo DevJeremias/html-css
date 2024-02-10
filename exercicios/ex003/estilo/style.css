@@ -36,7 +36,7 @@ a.externo::after {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor2), purple);
+    background-image: linear-gradient(to bottom, yellow, purple);
     color: var(--cor5);
     min-height: 150px;
     min-width: 300px;
